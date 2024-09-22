@@ -1,6 +1,9 @@
 body {
-  background-color: #ffdcf5;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/144/575/original/photo-1534271057238-c2c170a76672.jpeg?1726958206");
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Lato", sans-serif;
+  color: black;
 }
 
 header {
@@ -8,20 +11,21 @@ header {
   padding: 0 0 30px 0;
 }
 .weather-app {
-  background: white;
+  background-color: rgba(255, 255, 255, 0.2);
   max-width: 600px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
   padding: 30px;
-  margin: 45px auto;
+  margin: 50px auto;
+  box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.25);
 }
 
 a {
-  color: #885df1;
+  color: #8a1253;
 }
 
 .search-form-input {
-  background-color: #f9f7fe;
+  background-color: #ececec;
   border: none;
   border-radius: 6px;
   width: 80%;
@@ -30,7 +34,7 @@ a {
 }
 
 .search-form-button {
-  background: #885df1;
+  background: #8b3c76;
   padding: 15px 30px;
   border: none;
   margin-left: 5px;
@@ -48,17 +52,17 @@ main {
 }
 .weather-app-city {
   margin: 0;
-  font-size: 38px;
+  font-size: 45px;
   line-height: 48px;
 }
 .weather-app-details {
-  font-size: 16px;
-  color: rgba(39, 33, 66, 0.4);
+  font-size: 18px;
+  color: white;
   line-height: 24px;
   font-weight: 500;
 }
 .weather-app-details strong {
-  color: #f65282;
+  color: #8b3c76;
 }
 .weather-app-temperature-container {
   display: flex;
@@ -81,20 +85,22 @@ main {
 
 .weather-forecast-date {
   text-align: center;
-  color: rgba(39, 33, 66, 0.4);
+  color: black;
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 10px;
 }
 
 .weather-forecast-icon {
-  font-size: 38px;
-  text-align: center;
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
 }
 
 .weather-forecast-temperatures {
   text-align: center;
-  color: #f65282;
+  color: black;
   margin-top: 10px;
   display: flex;
   justify-content: center;
@@ -106,12 +112,13 @@ main {
 .weather-forecast {
   display: flex;
   justify-content: space-around;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 footer {
-  border-top: 1px solid #f9f7fe;
-  padding: 0 0 30px 0;
-  font-size: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 30px 0 0 0;
+  font-size: 15px;
   text-align: center;
-  color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-family: monospace;
 }
